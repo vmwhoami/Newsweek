@@ -1,0 +1,25 @@
+:root {
+    --red: #f72210;
+    --yellow: #ffe400;
+    --background: #f4f5f6;
+    --text-color: #333;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    line-height: 1.7;
+}
