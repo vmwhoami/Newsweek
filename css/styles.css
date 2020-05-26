@@ -40,8 +40,9 @@ body {
     background-color: var(--red);
 }
 
-.nav-left {
-    display: none;
+.weather {
+    width: 24px;
+    height: 24px;
 }
 
 .nav-logo {
@@ -110,9 +111,6 @@ body {
 
 @media screen and (min-width: 768px) {
 
-    .butt-on {
-        font-size: 20px;
-    }
 
     .hb-menu-span::before,
     .hb-menu-span::after {
