@@ -16,11 +16,19 @@
 
 <body>
     <div class="container-fluid p-0">
-        <nav class="navbar d-flex justify-content-between">
+        <nav class="navbar d-flex justify-content-between p-0">
             <div class="nav-left p-4 d-none d-lg-flex flex-md-column">
                 <a href="" class="weather-location d-flex align-items-center">
-                    <img class="weather d-none d-md-inline-block" src="img/weather-clouds.png" alt="clouds img">
-                    <span class="text-white font-weight-bold">16° Chisinau,MD</span>
+                    <img class="weather d-none d-md-inline-block mr-2 d-flex align-items-center"
+                        src="img/weather-clouds.png" alt="clouds img">
+                    <span class="text-white font-weight-bold">16° Chisinau,MD
+                        <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                    </span>
                 </a>
                 <span class="date  text-white d-none d-md-block ">Tue, May 26, 2020</span>
             </div>
@@ -36,7 +44,7 @@
                     </svg>
                 </a>
             </div>
-            <div class="nav-right d-flex align-items-center">
+            <div class="nav-right d-flex align-items-center align-self-end mr-2">
                 <a href="#"
                     class="login ml-1 d-none d-md-block text-white text-uppercase font-weight-bold mr-3">Login</a>
 
@@ -48,8 +56,16 @@
                             d="M8,7c1.104,0,2-0.896,2-2S9.104,3,8,3S6,3.896,6,5S6.896,7,8,7z M9,8H7c-1.656,0-3,1.343-3,3v2h8v-2   C12,9.343,10.656,8,9,8z" />
                     </g>
                 </svg>
-                <button class="btn text-uppercase add-free font-weight-bold m-1 p-md-1 ">Ad Free
-                    Trial</button>
+                <button class="btn text-uppercase add-free font-weight-bold m-1 p-md-1 d-flex align-items-center ">Ad
+                    Free
+                    Trial
+                    <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                        </path>
+                    </svg>
+                </button>
                 <a class="hamburger-menu d-flex align-items-center ml-1 ml-lg-2 d-lg-none" href="#">
                     <span class="span-container d-flex align-items-center justify-content-center w-100 h-100 d-block">
                         <span class="hb-menu-span"></span>
