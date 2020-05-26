@@ -16,12 +16,12 @@
 
 <body>
     <div class="container-fluid p-0">
-        <nav class="navbar d-flex justify-content-between p-0">
+        <nav class="navbar d-flex justify-content-between p-lg-0">
             <div class="nav-left p-4 d-none d-lg-flex flex-md-column">
                 <a href="" class="weather-location d-flex align-items-center">
                     <img class="weather d-none d-md-inline-block mr-2 d-flex align-items-center"
                         src="img/weather-clouds.png" alt="clouds img">
-                    <span class="text-white font-weight-bold">16° Chisinau,MD
+                    <span class="text-white font-weight-bold d-flex align-items-center">16° Chisinău,MD
                         <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -44,7 +44,7 @@
                     </svg>
                 </a>
             </div>
-            <div class="nav-right d-flex align-items-center align-self-end mr-2">
+            <div class="nav-right d-flex align-items-center align-self-end mr-2 mb-lg-3">
                 <a href="#"
                     class="login ml-1 d-none d-md-block text-white text-uppercase font-weight-bold mr-3">Login</a>
 
@@ -56,7 +56,8 @@
                             d="M8,7c1.104,0,2-0.896,2-2S9.104,3,8,3S6,3.896,6,5S6.896,7,8,7z M9,8H7c-1.656,0-3,1.343-3,3v2h8v-2   C12,9.343,10.656,8,9,8z" />
                     </g>
                 </svg>
-                <button class="btn text-uppercase add-free font-weight-bold m-1 p-md-1 d-flex align-items-center ">Ad
+                <button
+                    class="btn text-uppercase add-free font-weight-bold m-1 pl-md-1 d-flex align-items-center btn-text p-0">Ad
                     Free
                     Trial
                     <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
@@ -70,25 +71,41 @@
                     <span class="span-container d-flex align-items-center justify-content-center w-100 h-100 d-block">
                         <span class="hb-menu-span"></span>
                     </span>
-
                 </a>
             </div>
 
         </nav>
-        <div class="nav-bottom d-none d-xl-flex">
-            <ul class="d-flex ">
-                <li><a class="p-3" href="#">World</a></li>
-                <li><a class="p-3" href="#"> Business</a></li>
-                <li><a class="p-3" href="#">U.S.</a></li>
-                <li><a class="p-3" href="#">Culture</a></li>
-                <li><a class="p-3" href="#">Newsgeek</a></li>
-                <li><a class="p-3" href="#">Sports</a></li>
-                <li><a class="p-3" href="#">Health</a></li>
-                <li><a class="p-3" href="#">The Debate</a></li>
-                <li><a class="p-3" href="#"> Vantage</a></li>
-                <li><a class="p-3" href="#"> Weather</a></li>
+        <div class="nav-bottom d-none d-lg-flex justify-content-between border-bottom">
+            <ul class="d-flex flex-grow-1 justify-content-between align-items-center m-0 p-3">
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold"
+                        href="#">World</a>
+                </li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class=""
+                        href="#">
+                        Business</a></li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class=""
+                        href="#">U.S.</a>
+                </li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class=""
+                        href="#">Culture</a></li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class=""
+                        href="#">Newsgeek</a></li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class=""
+                        href="#">Sports</a>
+                </li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class=""
+                        href="#">Health</a>
+                </li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class=""
+                        href="#">The
+                        Debate</a></li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class=""
+                        href="#">
+                        Vantage</a></li>
+                <li class=""><a class=" pr-xl-4 pl-xl-4 pr-lg-3  text-body font-weight-bold" class="" href="#">
+                        Weather</a></li>
             </ul>
-            <input type="search" name="" id="">
+            <input class="mr-5 border-0" type="search" name="" id="">
         </div>
         <article class="d-flex">
 

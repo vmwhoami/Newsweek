@@ -131,7 +131,9 @@ body {
         width: 30px;
         height: 4px;
     }
-
+.btn-text{
+    font-size: 18px;
+}
 }
 
 @media screen and (min-width: 990px){
@@ -140,4 +142,13 @@ body {
         fill: white;
         width: 396px;
         height: 60px;
+}
+.nav-bottom{
+    position: relative;
+}
+ .nav-bottom::before{
+     content: "";
+     position: absolute;
+
+ }
 }
