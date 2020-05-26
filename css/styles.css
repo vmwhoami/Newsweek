@@ -16,9 +16,31 @@
 }
 
 
-
 body {
     box-sizing: border-box;
     line-height: 1.7;
     background-color: var(--background);
+}
+
+.navbar {
+    background-color: var(--red);
+}
+
+.nav-left {
+    display: none;
+}
+
+.nav-logo {
+    fill: white;
+    width: 132px;
+    height: 20px;
+}
+
+.add-free {
+    background-color: var(--yellow);
+}
+
+.human-icon {
+    height: 30px;
+    width: 30px;
 }
