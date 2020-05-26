@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="https://g.newsweek.com/themes/newsweek/favicon.ico" type="image/x-icon">
     <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
 
 <body>
-    <div class="conatainer">
-
+    <div class="container-fluid p-0">
         <nav class="navbar d-flex justify-content-between">
-            <div class="nav-left m-3">
-                <a href="" class="weather-location"></a>
-                <span class="date"></span>
+            <div class="nav-left p-4">
+                <a href="" class="weather-location">
+                    <img class="d-none d-xl-block" src="img/weather-clouds.png" alt="clouds img">
+                </a>
+                <span class="date font-weight-bold text-white d-none d-md-block ">Tue, May 26, 2020</span>
             </div>
-            <div class="nav-center ">
+            <div class="nav-center align-self-lg-center ">
                 <a href="#">
                     <svg class="nav-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
@@ -31,10 +35,11 @@
                     </svg>
                 </a>
             </div>
-            <div class="nav-right">
-                <a href="#" class="login"></a>
+            <div class="nav-right d-flex">
+                <a href="#"
+                    class="login ml-1 d-none d-md-block text-white text-uppercase font-weight-bold mr-3">Login</a>
 
-                <svg class="human-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                <svg class="human-icon d-md-none" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
                     viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
                     <g>
@@ -42,12 +47,34 @@
                             d="M8,7c1.104,0,2-0.896,2-2S9.104,3,8,3S6,3.896,6,5S6.896,7,8,7z M9,8H7c-1.656,0-3,1.343-3,3v2h8v-2   C12,9.343,10.656,8,9,8z" />
                     </g>
                 </svg>
+                <button class="btn text-uppercase add-free font-weight-bold m-1">Ad Free Trial</button>
+                <a class="hamburger-menu d-flex align-items-center ml-1 ml-lg-2 d-lg-none" href="#">
+                    <span class="span-container d-flex align-items-center justify-content-center w-100 h-100 d-block">
+                        <span class="hb-menu-span"></span>
+                    </span>
 
-                <button class="btn text-uppercase add-free">Ad Free Trial</button>
+                </a>
             </div>
+
         </nav>
+        <div class="nav-bottom d-none d-xl-flex">
+            <ul class="d-flex ">
+                <li><a class="p-3" href="#">World</a></li>
+                <li><a class="p-3" href="#"> Business</a></li>
+                <li><a class="p-3" href="#">U.S.</a></li>
+                <li><a class="p-3" href="#">Culture</a></li>
+                <li><a class="p-3" href="#">Newsgeek</a></li>
+                <li><a class="p-3" href="#">Sports</a></li>
+                <li><a class="p-3" href="#">Health</a></li>
+                <li><a class="p-3" href="#">The Debate</a></li>
+                <li><a class="p-3" href="#"> Vantage</a></li>
+                <li><a class="p-3" href="#"> Weather</a></li>
+            </ul>
+            <input type="search" name="" id="">
+        </div>
+        <article class="d-flex">
 
-
+        </article>
         <footer></footer>
     </div>
 
