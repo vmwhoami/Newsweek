@@ -186,6 +186,33 @@ body {
     z-index: 1;
 }
 
+.guy1 {
+    position: relative;
+}
+
+.guy1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 4px solid var(--red);
+}
+
+.guy2 {
+    position: relative;
+}
+
+.guy2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 4px solid #1c87fb;
+}
+
+
 @media screen and (min-width: 990px) {
 
     .nav-logo {
