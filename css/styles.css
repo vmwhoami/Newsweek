@@ -10,12 +10,6 @@
         sans-serif;
 }
 
-/* font-family: 'Roboto Condensed',
-sans-serif;
-font-family: 'Roboto Slab',
-serif; */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -102,12 +96,15 @@ body {
 .hb-menu-span::before {
     top: -6px;
 }
-
-/* .nav-bottom {
-    display: none;
+.search-input{
+    background: url("/img/search-glass.svg")  50% 50% no-repeat;
+    background-size: 15%;
+    font-family: inherit;
 }
-
-*/
+.search-input:active,
+.search-input:focus{
+    outline: none;
+}
 
 
 
