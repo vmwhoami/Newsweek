@@ -16,10 +16,10 @@
 
 <body>
     <div class="container-fluid p-0">
-        <nav class="navbar d-flex justify-content-between p-lg-0">
+        <nav class="navbar d-flex justify-content-between p-lg-0 red-background">
             <div class="nav-left p-4 d-none d-lg-flex flex-md-column">
                 <a href="" class="weather-location d-flex align-items-center">
-                    <img class="weather d-none d-md-inline-block mr-2 d-flex align-items-center"
+                    <img class="weather-icon d-none d-md-inline-block mr-2 d-flex align-items-center "
                         src="img/weather-clouds.png" alt="clouds img">
                     <span class="text-white font-weight-bold d-flex align-items-center">16° Chisinău,MD
                         <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
@@ -32,7 +32,7 @@
                 </a>
                 <span class="date  text-white d-none d-md-block ">Tue, May 26, 2020</span>
             </div>
-            <div class="nav-center justify-self-lg-center ">
+            <div class="nav-center justify-self-md-center ">
                 <a href="#">
                     <svg class="nav-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
@@ -75,7 +75,7 @@
             </div>
 
         </nav>
-        <div class="nav-bottom d-none d-lg-flex justify-content-between border-bottom bg-white">
+        <div class="nav-bottom d-none d-lg-flex justify-content-between border-bottom bg-white posiotion-relative">
             <ul class="d-flex flex-grow-1 justify-content-between align-items-center m-0 p-lg-3 p-md-1">
                 <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
                         href="#">World</a>
@@ -107,12 +107,90 @@
             </ul>
             <input class="search-input mr-5 border-0" type="search" name="search" id="search" placeholder="Search">
         </div>
-        <article class="d-flex">
 
-        </article>
+
+
+        <div class="row mx-auto ">
+
+            <div class=" col-md-7 col-lg-4 bg-white order-lg-2 order-md-2">
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2">TOP STORY</h1>
+                <div class="card">
+                    <div class="wrap">
+                        <img src="img/superman.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="text-red font-weight-bold category" href="#">U.S.</a>
+                    </div>
+                </div>
+                <h3 class="font-weight-bold ">
+                    <a class="text-dark h-4" href="#">Superman finally wins in the epic clash</a> </h3>
+                <div class="card-text">
+                    Superman finally won after decades of losing. We congratulate superman and we wish him to recover
+                    sooner from the injures caused by the villain Batman.
+                </div>
+            </div>
+
+
+            <div class="col-md-5 col-lg-4 bg-white order-md-1">
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2">FEATURED STORIES</h1>
+                <div class="card">
+                    <div class="wrap">
+                        <img src="img/george-floyd-protests.jpg" alt="batmanwins"
+                            class="card-img rounded-0 posiotion-relative">
+                        <a class="text-red font-weight-bold category" href="#">U.S.</a>
+                    </div>
+                </div>
+                <h3 class="font-weight-bold ">
+                    <a class="text-dark h-4" href="#">New George Floyd Video Shows Him Compliant and Handcuffed
+                        Early</a> </h3>
+                <div class="card-text">
+                    While the video only shows one phase of the arrest process and has no audio, it shows George Floyd
+                    handcuffed and appearing to follow the officers' instructions.
+                </div>
+            </div>
+
+
+            <div class="col-md-5 col-lg-4 bg-white order-md-3">
+
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2">THE DEBATE</h1>
+                <div class="row">
+                    <div class="debate">
+                        <div class="d-flex align-items-center p-1">
+                            <a href="#">
+                                <img class="opinion-debate-img mx-2" src="img/mudak1.png" alt="mudak">
+                            </a>
+                            <div class="d-flex flex-column">
+                                <a class="text-dark font-weight-bold h-5" href="#">Capitalism Creates Social Justice</a>
+                                <span class="text-uppercase font-weight-light">By <a class="text-dark font-weight-bold"
+                                        href="#">Dinesh
+                                        D'Souza</a></span>
+                            </div>
+                        </div>
+                        <div class="vs bg-dark d-inline-block rounded-circle text-white">
+                            <span class="rounded-circle text-white">VS</span>
+                        </div>
+                        <div class="d-flex align-items-center p-1">
+                            <div class="d-flex flex-column">
+                                <a class="text-dark font-weight-bold h-5" href="#"> Nathan Robinson
+                                    The Time Is Ripe for More Socialisme</a>
+                                <span class="text-uppercase font-weight-light">By <a class="text-dark font-weight-bold"
+                                        href="#">Nathan Robinson</a></span>
+                            </div>
+                            <a href="#">
+                                <img class="opinion-debate-img mx-2" src="img/mudak2.png" alt="mudak">
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- The footer -->
         <footer>
-
-
 
         </footer>
     </div>

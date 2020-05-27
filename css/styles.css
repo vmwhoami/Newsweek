@@ -1,5 +1,5 @@
+/* variables */
 :root {
-
     --red: #f72210;
     --yellow: #ffe400;
     --background: #f4f5f6;
@@ -28,16 +28,21 @@ body {
     font-family: var(--condensed);
 }
 
-.container-fluid{
+
+.text-red {
+    color: var(--red);
+}
+
+.container-fluid {
     overflow: hidden;
 }
 
 
-.navbar {
+.red-background {
     background-color: var(--red);
 }
 
-.weather {
+.weather-icon {
     width: 24px;
     height: 24px;
 }
@@ -53,7 +58,6 @@ body {
 
 .add-free {
     background-color: var(--yellow);
-    padding: 0 5px;
     font-size: 12px;
     letter-spacing: 0px;
 }
@@ -67,8 +71,6 @@ body {
     width: 30px;
     height: 30px;
 }
-
-
 
 .hb-menu-span {
     display: inline-block;
@@ -96,17 +98,32 @@ body {
 .hb-menu-span::before {
     top: -6px;
 }
-.search-input{
-    background: url("/img/search-glass.svg")  50% 50% no-repeat;
+
+.search-input {
+    background: url("/img/search-glass.svg") 50% 50% no-repeat;
     background-size: 15%;
     font-family: inherit;
 }
+
 .search-input:active,
-.search-input:focus{
+.search-input:focus {
     outline: none;
 }
 
+/* article category over img */
+.category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 8px 15px 9px;
+    background-color: rgba(255, 255, 255, .9);
+}
 
+
+.opinion-debate-img {
+    height: 63px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -130,30 +147,29 @@ body {
         width: 30px;
         height: 4px;
     }
-.btn-text{
-    font-size: 18px;
-}
+
+    .btn-text {
+        font-size: 18px;
+    }
 }
 
-@media screen and (min-width: 990px){
+@media screen and (min-width: 990px) {
 
     .nav-logo {
         fill: white;
         width: 396px;
         height: 60px;
-}
-.nav-bottom{
-    position: relative;
-}
- .nav-bottom::before{
-     content: "";
-     top:0;
-     left: 94%;
-     width: 120px;
-     height: 13px;
-     background-color:var(--red);
-     position: absolute;
-     transform: skewX(45deg);
+    }
 
- }
+    .nav-bottom::before {
+        content: "";
+        top: 0;
+        left: 94%;
+        width: 120px;
+        height: 13px;
+        background-color: var(--red);
+        position: absolute;
+        transform: skewX(45deg);
+
+    }
 }
