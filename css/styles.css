@@ -121,9 +121,7 @@ body {
 }
 
 
-.opinion-debate-img {
-    height: 63px;
-}
+
 
 
 @media screen and (min-width: 768px) {
@@ -153,6 +151,41 @@ body {
     }
 }
 
+.opinion-debate-img {
+    height: 63px;
+}
+
+.vs {
+    position: relative;
+    z-index: 100;
+}
+
+.vs-span {
+    width: 32px;
+    height: 32px;
+    z-index: 2;
+}
+
+.vs::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 47%;
+    left: 0;
+    border: .05rem solid #afafafce;
+    z-index: 1;
+}
+
+.vs::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 53%;
+    left: 0;
+    border: .05rem solid #afafafce;
+    z-index: 1;
+}
+
 @media screen and (min-width: 990px) {
 
     .nav-logo {
@@ -161,9 +194,13 @@ body {
         height: 60px;
     }
 
+    .nav-bottom {
+        position: relative;
+    }
+
     .nav-bottom::before {
         content: "";
-        top: 0;
+        top: -1px;
         left: 94%;
         width: 120px;
         height: 13px;
