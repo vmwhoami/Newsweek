@@ -215,11 +215,11 @@ body {
 
 @media screen and (min-width: 990px) {
 
-    .nav-logo {
-        fill: white;
-        width: 396px;
-        height: 60px;
-    }
+    /* .nav-logo {
+       fill: white;
+       width: 396px;
+       height: 60px;
+   } */
 
     .nav-bottom {
         position: relative;
