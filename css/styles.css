@@ -39,7 +39,6 @@ img{
     overflow: hidden;
 }
 
-
 .red-background {
     background-color: var(--red);
 }
@@ -121,7 +120,10 @@ img{
     background-color: rgba(255, 255, 255, .9);
 }
 
-
+.w-95{
+   min-width: 95px;
+    height: 100%;
+}
 
 
 
@@ -229,11 +231,6 @@ img{
 
 @media screen and (min-width: 990px) {
 
-    /* .nav-logo {
-       fill: white;
-       width: 396px;
-       height: 60px;
-   } */
 
     .nav-bottom {
         position: relative;
