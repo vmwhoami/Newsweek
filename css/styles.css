@@ -46,12 +46,11 @@ body {
     width: 24px;
     height: 24px;
 }
-
-.nav-logo {
+/* .nav-logo {
     fill: white;
     width: 132px;
     height: 20px;
-}
+} */
 
 
 /* Navbar-right */
@@ -212,6 +211,19 @@ body {
     border: 4px solid #1c87fb;
 }
 
+.logo-2-bg {
+    background-color: var(--red);
+    width: 45px;
+    height: 30px;
+}
+
+.logo-2 {
+    fill: white;
+}
+
+.nav-logo {
+    fill: white;
+}
 
 @media screen and (min-width: 990px) {
 
