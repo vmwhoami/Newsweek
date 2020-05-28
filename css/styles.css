@@ -28,7 +28,9 @@ body {
     font-family: var(--condensed);
 }
 
-
+img{
+    cursor: pointer;
+}
 .text-red {
     color: var(--red);
 }
