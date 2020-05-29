@@ -7,8 +7,8 @@ The goal of this project is to build a responsive clone of [The Next Web website
 
 
 
-![screenshot](./img/screenshot.jpg)
-![screenshot](./img/screenshot-mobile.jpg)
+![screenshot](https://raw.githubusercontent.com/vmwhoami/Newsweek/working-branch/img/Screenshot_1.jpg)
+![screenshot](https://raw.githubusercontent.com/vmwhoami/Newsweek/working-branch/img/Screenshot_mobile.jpg)
 
 This project covers the following HTML and CSS3 concepts
 
