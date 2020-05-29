@@ -28,9 +28,10 @@ body {
     font-family: var(--condensed);
 }
 
-img{
+img {
     cursor: pointer;
 }
+
 .text-red {
     color: var(--red);
 }
@@ -47,6 +48,7 @@ img{
     width: 24px;
     height: 24px;
 }
+
 /* .nav-logo {
     fill: white;
     width: 132px;
@@ -120,12 +122,15 @@ img{
     background-color: rgba(255, 255, 255, .9);
 }
 
-.w-95{
-   min-width: 95px;
-    height: 100%;
+.w-95 {
+    min-width: 95px;
+    /* height: 100%; */
 }
 
-
+.img-container {
+    position: relative;
+    min-width: 250px;
+}
 
 @media screen and (min-width: 768px) {
 
