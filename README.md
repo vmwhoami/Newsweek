@@ -1,5 +1,3 @@
-# Newsweek
-This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
 # The Newsweek.com Webpage Clone using bootstrap
 
@@ -11,10 +9,11 @@ The goal of this project is to build a responsive clone of [The Next Web website
 ![screenshot](https://raw.githubusercontent.com/vmwhoami/Newsweek/working-branch/img/Screenshot_mobile.jpg)
 
 This project covers the following HTML and CSS3 concepts
-
+- Bootstrap
 - Fixed, relative and absolute positioning
-- Flex and Grid
-- Responsive Design concepts using media queries
+- Flex and Bootstrap grid
+- Responsive Design concepts using media queries and Bootstrap
+
 
 ## Built With
 
@@ -26,7 +25,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://raw.githack.com/vmwhoami/Newsweek/working-branch/index.html)
 
 ## Getting Started
 
