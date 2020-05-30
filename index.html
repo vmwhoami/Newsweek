@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="https://g.newsweek.com/themes/newsweek/favicon.ico" type="image/x-icon">
+    <script defer src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+</head>
+
+<body>
+
+    <div class="container-fluid p-0">
+        <nav class="navbar d-flex justify-content-between p-lg-0 red-background">
+            <div class="nav-left p-4 d-none d-lg-flex flex-md-column">
+                <a href="" class="weather-location d-flex align-items-center">
+                    <img class="weather-icon d-none d-md-inline-block mr-2 d-flex align-items-center "
+                        src="img/weather-clouds.png" alt="clouds img">
+                    <span class="text-white font-weight-bold d-flex align-items-center">16° Chisinău,MD
+                        <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                            </path>
+                        </svg>
+                    </span>
+                </a>
+                <span class="date  text-white d-none d-md-block ">Tue, May 26, 2020</span>
+            </div>
+            <div class="nav-center justify-self-md-center w-25  ">
+                <a href="#">
+                    <svg class="nav-logo" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+                        style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                        <g>
+                            <path class="st0"
+                                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2&#9;L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11&#9;c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7&#9;l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6&#9;H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13&#9;c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8&#9;c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2&#9;C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7&#9;h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4&#9;c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1&#9;c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6&#9;c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6&#9;C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5&#9;h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9&#9;c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2&#9;c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9&#9;C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6&#9;c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1&#9;c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6&#9;v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3&#9;c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5&#9;h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="nav-right d-flex align-items-center align-self-end mr-2 mb-lg-3">
+                <a href="#" class="ml-1 d-none d-md-block text-white text-uppercase font-weight-bold mr-3">Login</a>
+
+                <svg class="human-icon d-md-none" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
+                    viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+                    <g>
+                        <path style="fill:#fdccc9;"
+                            d="M8,7c1.104,0,2-0.896,2-2S9.104,3,8,3S6,3.896,6,5S6.896,7,8,7z M9,8H7c-1.656,0-3,1.343-3,3v2h8v-2   C12,9.343,10.656,8,9,8z" />
+                    </g>
+                </svg>
+                <button
+                    class="btn text-uppercase add-free font-weight-bold m-1 pl-md-1 d-flex align-items-center btn-text p-0">Ad
+                    Free
+                    Trial
+                    <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                        </path>
+                    </svg>
+                </button>
+                <a class="hamburger-menu d-flex align-items-center ml-1 ml-lg-2 d-lg-none" href="#">
+                    <span class="span-container d-flex align-items-center justify-content-center w-100 h-100 d-block">
+                        <span class="hb-menu-span"></span>
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+        <div
+            class="nav-bottom d-none d-lg-flex flex-wrap justify-content-between border-bottom bg-white posiotion-relative">
+            <ul class="d-flex flex-grow-1 justify-content-between align-items-center m-0 p-md-1 py-lg-2 p-xl-2 ">
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">World</a>
+                </li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">
+                        Business</a></li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">U.S.</a>
+                </li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">Culture</a></li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">Newsgeek</a></li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">Sports</a>
+                </li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">Health</a>
+                </li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">The
+                        Debate</a></li>
+                <li class=" border-right"><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold"
+                        href="#">
+                        Vantage</a></li>
+                <li><a class=" pr-xl-4 pl-xl-4 pr-lg-3 pr-md-1 text-body font-weight-bold" href="#">
+                        Weather</a></li>
+            </ul>
+            <input class="search-input mr-5 border-0" type="search" name="search" id="search" placeholder="Search">
+        </div>
+
+
+
+        <div class="row mx-auto ">
+
+            <div class=" col-md-7 col-lg-5 bg-white order-lg-2 order-md-2 mb-2 mb-lg-0">
+
+                <!--      top story     -->
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2">TOP STORY</h1>
+                <div class="card">
+                    <div class="wrap">
+                        <img src="img/batman-supers.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="text-red font-weight-bold category" href="#">U.S.</a>
+                    </div>
+                </div>
+                <h3 class="font-weight-bold ">
+                    <a class="text-dark h-4" href="#">Superman finally wins in the epic clash</a> </h3>
+                <div class="card-text">
+                    Superman finally won after decades of losing. We congratulate superman and we wish him to recover
+                    sooner from the injures caused by the villain Batman.
+                </div>
+
+                <!-- Heroes of the Universe -->
+                <div class="d-none d-md-flex row order-5 px-2">
+                    <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2 w-75 px-2">Heroes of the Universe</h1>
+                    <div class="col-4 px-1">
+                        <div class="card">
+                            <div class="wrap">
+                                <img src="img/druglord.jpg" alt="batmanwins"
+                                    class="card-img rounded-0 posiotion-relative">
+                                <a class="category small font-weight-bold  text-body px-1 py-0" href="#">Heroes of the
+                                    Universe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <a class="text-dark " href="#">Druglords are coming out</a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-4 px-1">
+                        <div class="card">
+                            <div class="wrap">
+                                <img src="img/jacob-reese.jpg" alt="batmanwins"
+                                    class="card-img rounded-0 posiotion-relative">
+                                <a class="category small font-weight-bold  text-body px-1 py-0" href="#">Heroes of the
+                                    Universe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <a class="text-dark " href="#">Jacob Rees got in the news today</a>
+
+                        </div>
+                    </div>
+                    <div class="col-4 px-1">
+                        <div class="card">
+                            <div class="wrap">
+                                <img src="img/baron.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                                <a class="category small font-weight-bold  text-body px-1 py-0" href="#">Heroes of the
+                                    Universe
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <a class="text-dark " href="#">The baron of the stumbs</a>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+                <!-- Culture & Travel -->
+                <div class="d-none d-md-flex row order-5 px-2">
+                    <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2 w-75 px-2">Culture & Travel</h1>
+                    <div class="col-4 px-1">
+                        <div class="card">
+                            <div class="wrap">
+                                <img src="img/rvillage.jpg" alt="batmanwins"
+                                    class="card-img rounded-0 posiotion-relative">
+                                <a class="category small font-weight-bold text-uppercase text-body px-1 py-0"
+                                    href="#">travel
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <a class="text-dark " href="#">RVs Could Be the Answer to Your Summer Travel Plans</a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-4 px-1">
+                        <div class="card">
+                            <div class="wrap">
+                                <img src="img/gorilla.jpg" alt="batmanwins"
+                                    class="card-img rounded-0 posiotion-relative">
+                                <a class="category small font-weight-bold text-uppercase text-body px-1 py-0"
+                                    href="#">travel
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <a class="text-dark " href="#">How Coronavirus—and Lack of Tourism—Impact East Africa's
+                                Gorillasy</a>
+
+                        </div>
+                    </div>
+                    <div class="col-4 px-1">
+                        <div class="card">
+                            <div class="wrap">
+                                <img src="img/beach.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                                <a class="category small font-weight-bold text-uppercase  text-body px-1 py-0"
+                                    href="#">travel
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            <a class="text-dark " href="#">What Beaches Are Open Now? What to Know Before You Go</a>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+                <!-- MORE STORIES -->
+                <div class="d-none d-md-flex row order-5 px-2">
+                    <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2 w-75 px-2">MORE STORIES</h1>
+                    <div class="w-100">
+
+                        <!-- joe biden -->
+
+                        <div class="py-2 border-top">
+                            <a class="float-left" href="#">
+                                <img class=" mx-1" src="img/joe-biden.jpg" alt="mudak">
+                            </a>
+                            <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">Biden Widens Lead Over
+                                    Trump
+                                    to 11
+                                    Points in New National Poll </a></h6>
+
+                            <p> The poll finds Biden with 54 percent support from responders and Trump
+                                with 43
+                                percent support.</p>
+                        </div>
+
+                        <!-- protest -->
+
+                        <div class="py-2 border-top">
+                            <a class="float-left" href="#">
+                                <img class="mr-3" src="img/protest.jpg" alt="mudak">
+                            </a>
+                            <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">George Floyd Did Not Have a
+                                    Pulse When Placed in Ambulance: Report</a></h6>
+
+                            <p> The report describes Floyd's condition as "unresponsive" when medical personnel arrived
+                                and unchanging as they worked to revive him on the way to Hennepin County Medical
+                                Center.</p>
+                        </div>
+                        <!-- fox news -->
+                        <div class="py-2 border-top">
+                            <a class="float-left" href="#">
+                                <img class="mr-3" src="img/fox-news.jpg" alt="mudak">
+                            </a>
+                            <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">Judge Throws Out Fox News
+                                    Coronavirus Lawsuit on First Amendment Grounds</a></h6>
+
+                            <p>The lawsuit said FOX News "knowingly disseminated false information" on COVID-19 that
+                                hampered "implementation of effective mitigation and countermeasures against the </p>
+                        </div>
+
+
+                        <!-- Keyley -->
+                        <div class="py-2 border-top">
+                            <a class="float-left" href="#">
+                                <img class="mr-3" src="img/kayleigh-mcenany.jpg" alt="mudak">
+                            </a>
+                            <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">WH Press Sec Insists Absentee
+                                    Ballots Invite Election Fraud</a></h6>
+
+                            <p>"Absentee voting has the word absent in it for a reason. It means you're absent from the
+                                jurisdiction or unable to vote in person. President Trump is against the Democrat plan
+                                to politicize the coronavirus and expand mass mail-in voting without a reason," McEnany
+                                said in a statement to Newsweek. </p>
+                        </div>
+
+                        <!-- Us capitol -->
+                        <div class="py-2 border-top">
+                            <a class="float-left" href="#">
+                                <img class="mr-3" src="img/protest.jpg" alt="mudak">
+                            </a>
+                            <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">Congress Hits Lowest
+                                    Coronavirus Approval Rating Amid Mounting Deaths: Poll</a></h6>
+
+                            <p>A new survey by Morning Consult found that only four in 10 Americans approved of
+                                Congress' handling of the pandemic.</p>
+                        </div>
+
+                        <!-- Space -->
+                        <div class="py-2 border-top">
+                            <a class="float-left" href="#">
+                                <img class="mr-3" src="img/joe-biden.jpg" alt="mudak">
+                            </a>
+                            <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">Astronomers May Have Found
+                                    the Universe's Missing Matter</a></h6>
+
+                            <p>Fast radio bursts were used as "cosmic weigh stations" to find the sparsely distributed
+                                matter.</p>
+                        </div>
+
+                        <!--Californi -->
+                        <div class="py-2 border-top">
+                            <a class="float-left" href="#">
+                                <img class="mr-3" src="img/california.jpg" alt="mudak">
+                            </a>
+                            <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">California Health Officer
+                                    Warns State Reopening Too Quickly</a></h6>
+
+                            <p>"We believe that our social and economic well-being are best served by a more phased
+                                approach," Dr. Sara Cody of Santa Clara County cautioned.</p>
+                        </div>
+
+                        <!--Harry -->
+                        <div class="py-2 border-top">
+                            <a class="float-left" href="#">
+                                <img class="mr-3" src="img/meghan-markle-prince-harry-trooping.jpg" alt="mudak">
+                            </a>
+                            <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">Prince Harry and Meghan
+                                    Markle Call in Police Over Drone Sightings</a></h6>
+
+                            <p>The Duke and Duchess of Sussex have reported a string of drone attacks thought to be by
+                                paparazzi photographers at Tyler Perry's $18 million mansion, where they are staying.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- featured stories -->
+
+            <div class="col-md-5 col-lg-4 bg-white order-md-1">
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2">FEATURED STORIES</h1>
+
+                <!-- 1 -->
+                <div class="card">
+                    <div class="wrap">
+                        <img src="img/george-floyd-protests.jpg" alt="batmanwins"
+                            class="card-img rounded-0 posiotion-relative">
+                        <a class="text-red font-weight-bold category" href="#">U.S.</a>
+                    </div>
+                </div>
+                <h3 class="font-weight-bold ">
+                    <a class="text-dark h-4" href="#">New George Floyd Video Shows Him Compliant and Handcuffed
+                        Early</a> </h3>
+                <div class="card-text">
+                    While the video only shows one phase of the arrest process and has no audio, it shows George Floyd
+                    handcuffed and appearing to follow the officers' instructions.
+                </div>
+
+                <!-- 2 -->
+                <div class="card my-4">
+                    <div class="wrap">
+                        <img src="img/pills.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="text-red font-weight-bold category" href="#">U.S.</a>
+                    </div>
+                </div>
+                <h3 class="font-weight-bold ">
+                    <a class="text-dark h-4" href="#">India Promotes Hydroxychloroquine, as WHO Stops Trials Over Safety
+                        Issues</a> </h3>
+                <div class="card-text">
+                    The director-general of the Indian Council of Medical Research on Tuesday insisted there is "no
+                    harm" in taking hydroxychloroquine to prevent COVID-19, despite the World Health Organization
+                    halting a study of the drug over increasing safety concerns.
+                </div>
+
+                <!-- 3 -->
+                <div class="card my-4">
+                    <div class="wrap">
+                        <img src="img/amy-klobuchar.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="text-red font-weight-bold category" href="#">U.S.</a>
+                    </div>
+                </div>
+                <h3 class="font-weight-bold ">
+                    <a class="text-dark h-4" href="#">Amy Klobuchar Calls for Prosecution of Minneapolis Cops</a> </h3>
+                <div class="card-text">
+                    "These cases can be considered immediately, fairly but swiftly, for criminal charges because you
+                    just can't have something like this. He was pleading for his life," Sen. Amy Klobuchar said on
+                    "Cuomo Prime Time."
+                </div>
+
+                <!-- 4 -->
+                <div class="card my-4">
+                    <div class="wrap">
+                        <img src="img/hong-kong.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="text-red font-weight-bold category" href="#">U.S.</a>
+                    </div>
+                </div>
+                <h3 class="font-weight-bold ">
+                    <a class="text-dark h-4" href="#">Protesters Call for 'Hong Kong Independence' as Police Arrest 180
+                        People</a> </h3>
+                <div class="card-text">
+                    The Hong Kong Police Force said that the demonstrators were detained for "unauthorized assembly,
+                    unlawful assembly and disorderly conduct in a public place."
+                </div>
+
+
+                <!-- 5 -->
+                <div class="card my-4">
+                    <div class="wrap">
+                        <img src="img/karen-meme-zeitgeist.jpg" alt="batmanwins"
+                            class="card-img rounded-0 posiotion-relative">
+                        <a class="text-red font-weight-bold category text-uppercase" href="#">Essay</a>
+                    </div>
+                </div>
+                <h3 class="font-weight-bold ">
+                    <a class="text-dark h-4" href="#">'I'm Called Karen—Please Don't Drag My Name (Or I'll Call The
+                        Manager)'</a> </h3>
+                <div class="card-text">
+                    I'm now in a weird situation where I'm not going to speak up because I'm named Karen, and I don't
+                    want to be anything like the "Karen" who is going to speak up about anything that could be wrong.
+                </div>
+
+            </div>
+
+
+
+            <!-- debate -->
+            <div class="col-12 col-lg-3 bg-white order-md-3 mt-2 mt-md-0">
+
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2">THE DEBATE</h1>
+                <div class="debate w-100">
+                    <div class="guy1 d-flex align-items-center py-4">
+                        <a href="#">
+                            <img class="opinion-debate-img mx-2" src="img/mudak1.png" alt="mudak">
+                        </a>
+                        <div class="d-flex flex-column">
+                            <a class="text-dark font-weight-bold h-5" href="#">Capitalism Creates Social Justice</a>
+                            <span class="text-uppercase font-weight-light">By <a class="text-dark font-weight-bold"
+                                    href="#">Dinesh
+                                    D'Souza</a></span>
+                        </div>
+                    </div>
+                    <!--     Debate VS     -->
+                    <div class="vs text-white d-flex justify-content-center py-2">
+                        <span
+                            class="vs-span bg-dark  rounded-circle text-white d-flex justify-content-center align-items-center">VS
+                        </span>
+                    </div>
+
+                    <div class="guy2 d-flex justify-content-between align-items-center py-4">
+                        <div class="d-flex flex-column ">
+                            <a class="text-dark font-weight-bold h-5" href="#">
+                                The Time Is Ripe for More Socialisme</a>
+                            <span class="text-uppercase font-weight-light">By <a class="text-dark font-weight-bold"
+                                    href="#">Nathan Robinson</a></span>
+                        </div>
+                        <a href="#">
+                            <img class="opinion-debate-img mx-2" src="img/mudak2.png" alt="mudak">
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- opinion section -->
+
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2 text-uppercase">opinion</h1>
+
+                <!-- jocelyn-benson -->
+
+                <div class="debate w-100">
+                    <div class="d-flex align-items-center py-2 border-bottom">
+                        <a href="#">
+                            <img class="opinion-debate-img mx-2" src="img/jocelyn-benson.png" alt="mudak">
+                        </a>
+                        <div class="d-flex flex-column">
+                            <a class="text-dark font-weight-bold h-5" href="#">Trump Can Call Me a 'Rogue Secretary of
+                                State.' But I Won't Let Lies Slide </a>
+                            <span class="text-uppercase font-weight-bolder  text-secondary">By Jocelyn Benson</span>
+                        </div>
+                    </div>
+
+                    <!-- BY JOHN MAHAMA -->
+
+                    <div class="d-flex align-items-center py-2 border-bottom">
+                        <a href="#">
+                            <img class="opinion-debate-img mx-2" src="img/john-mahama.png" alt="mudak">
+                        </a>
+                        <div class="d-flex flex-column">
+                            <a class="text-dark font-weight-bold h-5" href="#">COVID-19 Is a Chance for Africa to Have
+                                Its Own Marshall Plan </a>
+                            <span class="text-uppercase font-weight-bolder  text-secondary">BY JOHN MAHAMA</span>
+                        </div>
+                    </div>
+
+                    <!-- BY PAUL MILLER -->
+
+                    <div class="d-flex align-items-center py-2 border-bottom">
+                        <a href="#">
+                            <img class="opinion-debate-img mx-2" src="img/paul-miller.png" alt="mudak">
+                        </a>
+                        <div class="d-flex flex-column">
+                            <a class="text-dark font-weight-bold h-5" href="#">How Coronavirus and Cognitive Dissonance
+                                Are Shaping the NGO Landscape </a>
+                            <span class="text-uppercase font-weight-bolder  text-secondary">BY PAUL MILLER</span>
+                        </div>
+                    </div>
+                    <!-- BY ROBERT REICH -->
+                    <div class="d-flex align-items-center py-2 border-bottom">
+                        <a href="#">
+                            <img class="opinion-debate-img mx-2" src="img/robert-reich.png" alt="mudak">
+                        </a>
+                        <div class="d-flex flex-column">
+                            <a class="text-dark font-weight-bold h-5" href="#">Americans Aren't 'Dying' to Work. Trump
+                                Is Pushing This Chaotic Reopening </a>
+                            <span class="text-uppercase font-weight-bolder  text-secondary">BY ROBERT REICH</span>
+                        </div>
+                    </div>
+
+                    <!-- BY JOHN YOO AND ROBERT DELAHUNTY -->
+
+                    <div class="d-flex align-items-center py-2 border-bottom">
+                        <a href="#">
+                            <img class="opinion-debate-img mx-2" src="img/john-yoo-robert-delahunty.png" alt="mudak">
+                        </a>
+                        <div class="d-flex flex-column">
+                            <a class="text-dark font-weight-bold h-5" href="#">In Helping Hong Kong, Follow the Cold War
+                                Model </a>
+                            <span class="text-uppercase font-weight-bolder  text-secondary">BY JOHN YOO AND ROBERT
+                                DELAHUNTY</span>
+                        </div>
+                    </div>
+                    <!-- BY PATRICK PIZZELLA -->
+
+                    <div class="d-flex align-items-center py-2">
+                        <a href="#">
+                            <img class="opinion-debate-img mx-2" src="img/patrick-pizzella.png" alt="mudak">
+                        </a>
+                        <div class="d-flex flex-column">
+                            <a class="text-dark font-weight-bold h-5" href="#">Trump's Department of Labor Has Risen to
+                                the Coronavirus Challenge </a>
+                            <span class="text-uppercase font-weight-bold  text-secondary">BY PATRICK PIZZELLA</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-4 col-lg-12  bg-light border d-none d-md-block  d-lg-block p-4 mx-auto mx-lg-0 mt-4 ">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="logo-2-bg mr-2">
+                                <svg class="logo-2" enable-background="new 0 0 29 28" version="1.1" viewBox="0 0 29 28"
+                                    xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <polygon class="st0"
+                                        points="8 22 12 22 12 15 17 22 21 22 21 6 17 6 17 13 12 6 8 6" />
+                                </svg>
+                            </div>
+                            <h6 class=" text-uppercase text-dark font-weight-bold mb-2">Start your day with our top 5
+                                articles
+                            </h6>
+                        </div>
+                        <input class="form-control mb-3 w-100 rounded-0" type="email" name="eamil" id="email">
+                        <button type="button"
+                            class="red-background btn btn-danger w-100 mt-2 text-uppercase font-weight-bolder d-flex justify-content-center align-items-center">Free
+                            sign
+                            up <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- second More Stories -->
+            <div class="row order-5 d-md-none ">
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2 w-75 px-4">MORE STORIES</h1>
+                <div class="px-4">
+
+                    <!-- joe biden -->
+
+                    <div class="py-2 border-top">
+                        <a class="float-left" href="#">
+                            <img class=" mx-1" src="img/joe-biden.jpg" alt="mudak">
+                        </a>
+                        <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">Biden Widens Lead Over
+                                Trump
+                                to 11
+                                Points in New National Poll </a></h6>
+
+                        <p> The poll finds Biden with 54 percent support from responders and Trump
+                            with 43
+                            percent support.</p>
+                    </div>
+
+                    <!-- protest -->
+
+                    <div class="py-2 border-top">
+                        <a class="float-left" href="#">
+                            <img class="mr-3" src="img/protest.jpg" alt="mudak">
+                        </a>
+                        <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">George Floyd Did Not Have a
+                                Pulse When Placed in Ambulance: Report</a></h6>
+
+                        <p> The report describes Floyd's condition as "unresponsive" when medical personnel arrived
+                            and unchanging as they worked to revive him on the way to Hennepin County Medical
+                            Center.</p>
+                    </div>
+                    <!-- fox news -->
+                    <div class="py-2 border-top">
+                        <a class="float-left" href="#">
+                            <img class="mr-3" src="img/fox-news.jpg" alt="mudak">
+                        </a>
+                        <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">Judge Throws Out Fox News
+                                Coronavirus Lawsuit on First Amendment Grounds</a></h6>
+
+                        <p>The lawsuit said FOX News "knowingly disseminated false information" on COVID-19 that
+                            hampered "implementation of effective mitigation and countermeasures against the </p>
+                    </div>
+
+
+                    <!-- Keyley -->
+                    <div class="py-2 border-top">
+                        <a class="float-left" href="#">
+                            <img class="mr-3" src="img/kayleigh-mcenany.jpg" alt="mudak">
+                        </a>
+                        <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">WH Press Sec Insists Absentee
+                                Ballots Invite Election Fraud</a></h6>
+
+                        <p>"Absentee voting has the word absent in it for a reason. It means you're absent from the
+                            jurisdiction or unable to vote in person. President Trump is against the Democrat plan
+                            to politicize the coronavirus and expand mass mail-in voting without a reason," McEnany
+                            said in a statement to Newsweek. </p>
+                    </div>
+
+
+
+                    <!--Californi -->
+                    <div class="py-2 border-top">
+                        <a class="float-left" href="#">
+                            <img class="mr-3" src="img/california.jpg" alt="mudak">
+                        </a>
+                        <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">California Health Officer
+                                Warns State Reopening Too Quickly</a></h6>
+
+                        <p>"We believe that our social and economic well-being are best served by a more phased
+                            approach," Dr. Sara Cody of Santa Clara County cautioned.</p>
+                    </div>
+
+                    <!--Harry -->
+                    <div class="py-2 border-top">
+                        <a class="float-left" href="#">
+                            <img class="mr-3" src="img/meghan-markle-prince-harry-trooping.jpg" alt="mudak">
+                        </a>
+                        <h6> <a class="text-dark font-weight-bolder h-5 py-0" href="#">Prince Harry and Meghan
+                                Markle Call in Police Over Drone Sightings</a></h6>
+
+                        <p>The Duke and Duchess of Sussex have reported a string of drone attacks thought to be by
+                            paparazzi photographers at Tyler Perry's $18 million mansion, where they are staying.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Heroes of the Universe the mobile first part -->
+            <div class=" d-md-none row order-6 mx-2">
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2 w-75 px-2">Heroes of the Universe</h1>
+                <div class="col-12 px-1">
+                    <div class="card">
+                        <div class="wrap">
+                            <img src="img/druglord.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                            <a class="category small font-weight-bold  text-body px-1 py-0" href="#">Heroes of the
+                                Universe
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-text">
+                        <a class="text-dark " href="#">Druglords are coming out</a>
+
+                    </div>
+                </div>
+
+                <div class="col-12 px-1">
+                    <div class="card">
+                        <div class="wrap">
+                            <img src="img/jacob-reese.jpg" alt="batmanwins"
+                                class="card-img rounded-0 posiotion-relative">
+                            <a class="category small font-weight-bold  text-body px-1 py-0" href="#">Heroes of the
+                                Universe
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-text">
+                        <a class="text-dark " href="#">Jacob Reese got in the news today</a>
+
+                    </div>
+                </div>
+                <div class="col-12 px-1">
+                    <div class="card">
+                        <div class="wrap">
+                            <img src="img/baron.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                            <a class="category small font-weight-bold  text-body px-1 py-0" href="#">Heroes of the
+                                Universe
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-text">
+                        <a class="text-dark " href="#">The baron of the stumbs</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- culture and travel mobile first -->
+
+            <div class="d-md-none row order-5 mx-2">
+                <h1 class="h6 font-weight-bold text-secondary pt-3 pb-2 w-75 px-2">Culture & Travel</h1>
+                <div class="col-12 px-1">
+                    <div class="card">
+                        <div class="wrap">
+                            <img src="img/rvillage.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                            <a class="category small font-weight-bold text-uppercase text-body px-1 py-0"
+                                href="#">travel
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-text">
+                        <a class="text-dark " href="#">RVs Could Be the Answer to Your Summer Travel Plans</a>
+
+                    </div>
+                </div>
+
+                <div class="col-12 px-1">
+                    <div class="card">
+                        <div class="wrap">
+                            <img src="img/gorilla.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                            <a class="category small font-weight-bold text-uppercase text-body px-1 py-0"
+                                href="#">travel
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-text">
+                        <a class="text-dark " href="#">How Coronavirus—and Lack of Tourism—Impact East Africa's
+                            Gorillasy</a>
+
+                    </div>
+                </div>
+                <div class="col-12 px-1">
+                    <div class="card">
+                        <div class="wrap">
+                            <img src="img/beach.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                            <a class="category small font-weight-bold text-uppercase  text-body px-1 py-0"
+                                href="#">travel
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-text">
+                        <a class="text-dark " href="#">What Beaches Are Open Now? What to Know Before You Go</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- In the Magazine section -->
+            <div class="col-12 order-6  d-flex mx-auto p-3 bg-white border-bottom">
+                <div class="d-flex align-items-center mb-2 mx-auto">
+                    <div class="logo-2-bg mr-2 h-100">
+                        <svg class="logo-2" enable-background="new 0 0 29 28" version="1.1" viewBox="0 0 29 28"
+                            xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <polygon class="st0" points="8 22 12 22 12 15 17 22 21 22 21 6 17 6 17 13 12 6 8 6" />
+                        </svg>
+                    </div>
+                    <h6 class=" text-uppercase text-dark font-weight-bold mb-2">In the magazine
+                    </h6>
+                </div>
+            </div>
+
+            <!-- xixhin pin -->
+
+            <div class="col-12 col-md-3 order-7 mx-auto bg-white pt-4">
+                <div class="w-100">
+                    <img class="w-100" src="img/us-capitol-building-external.jpg" alt="Xijingping">
+                </div>
+                <div class="my-2">
+                    <h6 class="text-uppercase red-background text-white d-inline-block font-weight-bolder px-1">cover
+                    </h6>
+                    <a class="text-red text-uppercase font-weight-bolder" href="#">news</a>
+                </div>
+                <h6 class="font-weight-bolder ">America Is in a New Cold War and This Time the Communists Might Win</h6>
+            </div>
+
+            <!-- coronavirus -->
+
+            <div class="col-12 col-md-3 order-7 mx-auto bg-white pt-4">
+                <div class="w-100">
+                    <img class="w-100" src="img/corona.jpg" alt="Xijingping">
+                </div>
+                <div class="my-2">
+                    <h6 class="text-uppercase red-background text-white d-inline-block font-weight-bolder px-1">cover
+                    </h6>
+                    <a class="text-red text-uppercase font-weight-bolder" href="#">news</a>
+                </div>
+                <h6 class="font-weight-bolder ">America Is in a New Cold War and This Time the Communists Might Win</h6>
+            </div>
+
+
+            <!-- Periscope -->
+            <div class="col-12 col-md-3 order-7 mx-auto bg-white pt-4">
+                <div class="w-100">
+                    <img class="w-100" src="img/cbc.jpg" alt="Xijingping">
+                </div>
+                <div class="my-2">
+                    <h6 class="text-uppercase red-background text-white d-inline-block font-weight-bolder px-1">
+                        Periscope
+                    </h6>
+                    <a class="text-red text-uppercase font-weight-bolder" href="#">Culture</a>
+                </div>
+                <h6 class="font-weight-bolder ">America Is in a New Cold War and This Time the Communists Might Win</h6>
+            </div>
+
+            <!--  Tech & Science-->
+            <div class="col-12 col-md-3 order-7 mx-auto bg-white pt-4">
+                <div class="w-100">
+                    <img class="w-100" src="img/amazon.jpg" alt="Xijingping">
+                </div>
+                <div class="my-2">
+                    <h6 class="text-uppercase red-background text-white d-inline-block font-weight-bolder px-1">
+                        Periscope
+                    </h6>
+                    <a class="text-red text-uppercase font-weight-bolder" href="#"> Tech & Science</a>
+                </div>
+                <h6 class="font-weight-bolder ">How Amazon's Bet on Autonomous Vehicles Can Help Protect Us from Viruses
+                </h6>
+            </div>
+
+            <!--  Tech & Science-->
+            <div class="col-12 col-md-3 order-7 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/jair.jpg" alt="Xijingping">
+                </div>
+                <div class="my-2">
+                    <h6 class="text-uppercase red-background text-white d-inline-block font-weight-bolder px-1">
+                        Periscope
+                    </h6>
+                    <a class="text-red text-uppercase font-weight-bolder" href="#"> Culture</a>
+                </div>
+                <h6 class="font-weight-bolder ">As Brazil's Bolsonaro Enjoys BBQ Despite COVID-19, the Poor Face
+                    Starvation
+                </h6>
+            </div>
+
+            <!--  The 20 Must-Read Fiction and -->
+            <div class="col-12 col-md-3 order-7 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/books.jpg" alt="Xijingping">
+                </div>
+                <div class="my-2">
+                    <h6 class="text-uppercase red-background text-white d-inline-block font-weight-bolder px-1">
+                        Downtime
+                    </h6>
+                    <a class="text-red text-uppercase font-weight-bolder" href="#"> Culture</a>
+                </div>
+                <h6 class="font-weight-bolder ">The 20 Must-Read Fiction and Nonfiction Books of the Summer
+                </h6>
+            </div>
+
+
+            <!--  The 20 Must-Read Fiction and -->
+            <div class="col-12 col-md-3 order-7 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/icecream.jpg" alt="Xijingping">
+                </div>
+                <div class="my-2">
+                    <h6 class="text-uppercase red-background text-white d-inline-block font-weight-bolder px-1">
+                        Downtime
+                    </h6>
+                    <a class="text-red text-uppercase font-weight-bolder" href="#"> Culture</a>
+                </div>
+                <h6 class="font-weight-bolder ">World's Finest Frozen Treats
+                </h6>
+            </div>
+
+
+            <!--  unmasked man-->
+            <div class="col-12 col-md-3 order-7 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/unmasked-man.jpg" alt="Xijingping">
+                </div>
+                <div class="my-2">
+                    <h6 class="text-uppercase red-background text-white d-inline-block font-weight-bolder px-1">
+                        in focus
+                    </h6>
+                </div>
+                <h6 class="font-weight-bolder ">Unmasked Man
+                </h6>
+            </div>
+
+
+            <!--        EDITOR'S PICK        -->
+
+
+            <div class="col-12 order-8  d-flex mx-auto p-4 bg-white border-bottom">
+                <div class="d-flex align-items-center mb-2 mx-auto">
+                    <div class="logo-2-bg mr-2 h-100">
+                        <svg class="logo-2" enable-background="new 0 0 29 28" version="1.1" viewBox="0 0 29 28"
+                            xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <polygon class="st0" points="8 22 12 22 12 15 17 22 21 22 21 6 17 6 17 13 12 6 8 6" />
+                        </svg>
+                    </div>
+                    <h6 class=" text-uppercase text-dark font-weight-bold mb-2">EDITOR'S PICK
+                    </h6>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3 order-8 py-4 bg-white">
+                <div class="card rounded-0">
+                    <div class="wrap">
+                        <img src="img/auschwitz.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="category small font-weight-bold text-uppercase text-red  px-2 py-0" href="#">u.s.
+                        </a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="text-body font-weight-bolder " href="#">Trump Wants Americans to Learn About the
+                        Holocaust</a>
+                </div>
+                <p> President expected to sign the Never Again Education Act into legislation to increase Holocaust
+                    education.</p>
+            </div>
+            <!-- U.S.  -->
+            <div class="col-12 col-md-6 col-lg-3 order-8 py-4 bg-white">
+                <div class="card rounded-0">
+                    <div class="wrap">
+                        <img src="img/us-capitol-building-external.jpg" alt="batmanwins"
+                            class="card-img rounded-0 posiotion-relative">
+                        <a class="category small font-weight-bold text-uppercase text-red  px-2 py-0" href="#">u.s.
+                        </a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="text-body font-weight-bolder " href="#">Congress Hits Lowest Coronavirus Approval
+                        Rating
+                        Amid Mounting
+                        Deaths: Poll</a>
+                </div>
+                <p> A new survey by Morning Consult found that only four in 10 Americans approved of Congress' handling
+                    of the pandemic.</p>
+            </div>
+
+            <!-- Tech and Science -->
+
+            <div class="col-12 col-md-6 col-lg-3 order-8 py-4 bg-white">
+                <div class="card rounded-0">
+                    <div class="wrap">
+                        <img src="img/space.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="category small font-weight-bold text-uppercase text-red  px-2 py-0"
+                            href="#">tech&science
+                        </a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="text-body font-weight-bolder " href="#">Astronomers May Have Found the Universe's Missing
+                        Matter</a>
+                </div>
+                <p> Fast radio bursts were used as "cosmic weigh stations" to find the sparsely distributed matter.</p>
+            </div>
+            <!-- de niro caprio -->
+            <div class="col-12 col-md-6 col-lg-3 order-8 py-4 bg-white">
+                <div class="card rounded-0">
+                    <div class="wrap">
+                        <img src="img/de-nero-dicaprio.jpg" alt="batmanwins"
+                            class="card-img rounded-0 posiotion-relative">
+                        <a class="category small font-weight-bold text-uppercase text-red  px-2 py-0" href="#">culture
+                        </a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="text-body font-weight-bolder " href="#">DiCaprio and De Niro Will Finally Be in a Martin
+                        Scorsese Film Together</a>
+                </div>
+                <p> The two Hollywood heavyweights starred in the Scorsese-directed short film, 'The Audition' in 2015,
+                    but 'Killers Of The Flower Moon' will be their first feature together since 1996.</p>
+            </div>
+
+            <!-- boston -->
+            <div class="col-12 col-md-6 col-lg-3 order-8 py-2 bg-white">
+                <div class="card rounded-0">
+                    <div class="wrap">
+                        <img src="img/boston.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="category small font-weight-bold text-uppercase text-red  px-2 py-0" href="#">u.s.
+                        </a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="text-body font-weight-bolder " href="#">Massachusetts Bill Seeks To Get Stimulus Checks
+                        For Undocumented Taxpayers</a>
+                </div>
+                <p> The new measure would seek to provide undocumented taxpayers with funds they were denied in the
+                    government's recent $2.2 trillion stimulus package.</p>
+            </div>
+            <!-- U.S.  -->
+            <div class="col-12 col-md-6 col-lg-3 order-8 py-2 bg-white">
+                <div class="card rounded-0">
+                    <div class="wrap">
+                        <img src="img/baby.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="category small font-weight-bold text-uppercase text-red  px-2 py-0" href="#">health
+                        </a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="text-body font-weight-bolder " href="#">Baby Given Cannabis-derived Drug to Prevent
+                        Seizures in World First</a>
+                </div>
+                <p>Oscar Parodi is taking part in a trial where babies are given a 30th of the usual dose of the drug.
+                </p>
+            </div>
+
+            <!-- hand -->
+
+            <div class="col-12 col-md-6 col-lg-3 order-8 py-2 bg-white">
+                <div class="card rounded-0">
+                    <div class="wrap">
+                        <img src="img/hand.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="category small font-weight-bold text-uppercase text-red  px-2 py-0" href="#">health
+                        </a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="text-body font-weight-bolder " href="#">Length of Ring Finger Linked to Men's Risk of
+                        Dying from Coronavirus</a>
+                </div>
+                <p> Scientists studied the ratio of index to ring finger in tens of thousands of men and women across 41
+                    countries.</p>
+            </div>
+            <!-- wuhan-->
+            <div class="col-12 col-md-6 col-lg-3 order-8 py-2 bg-white">
+                <div class="card rounded-0">
+                    <div class="wrap">
+                        <img src="img/wuhan.jpg" alt="batmanwins" class="card-img rounded-0 posiotion-relative">
+                        <a class="category small font-weight-bold text-uppercase text-red  px-2 py-0" href="#">health
+                        </a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="text-body font-weight-bolder " href="#">Wuhan Seafood Market Was 'Victim' of Coronavirus,
+                        Says Chinese CDC director</a>
+                </div>
+                <p> "The novel coronavirus had existed long before," director Gao Fu said.</p>
+            </div>
+
+            <!--                    U.S section                    -->
+            <div class="col-12 order-8  d-flex mx-auto py-4 bg-white border-top">
+                <h2 class="text-red font-weight-bolder ">u.s.</h2>
+            </div>
+            <div class="col-12 col-md-4 order-9 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/lottery.jpg" alt="Xijingping">
+                </div>
+                <h6 class="font-weight-bolder ">Powerball Results, Numbers for 5/27/20: Did Anyone Win the $115.5
+                    Million?</h6>
+            </div>
+
+            <div class="col-12 col-md-4 order-9 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/tax.jpg" alt="Xijingping">
+                </div>
+                <h6 class="font-weight-bolder ">Texas Supreme Court Says It Won't Allow Voters Afraid of COVID-19 to
+                    Mail in Election Ballots</h6>
+            </div>
+
+            <div class="col-12 col-md-4 order-9 bg-white  ">
+                <div class="row mb-2">
+                    <div class="col-3 col-md-4"><img class="img-fluid" src="img/clearwater-beach-florida-may-2020.jpg"
+                            alt="mudak">
+                    </div>
+
+                    <div class="col-8 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">12 U.S.
+                            States Where
+                            Coronavirus Cases
+                            Are
+                            Rising</a></div>
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col-3 col-md-4"><img class="img-fluid w-100" src="img/ice.jpg" alt="mudak">
+                    </div>
+
+                    <div class="col-9 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">Most
+                            Publicly Listed Companies Won't Return Coronavirus Stimulus Aid</a></div>
+                </div>
+
+
+                <div class="row mb-2">
+
+                    <div class="col-3 col-md-4"><img class="img-fluid w-100"
+                            src="img/i-cant-breathe-protest-held-after-man-dies-police-custody-minneapolis.jpg"
+                            alt="mudak">
+                    </div>
+
+                    <div class="col-9 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">Former ICE
+                            Detainee Sues CoreCivic Over
+                            Alleged Rape Resulting in Pregnancy</a></div>
+                </div>
+            </div>
+
+            <!--                    Businesssection                    -->
+            <div class="col-12 order-10  d-flex mx-auto py-2 bg-white border-top">
+                <h2 class="text-red font-weight-bolder ">Business</h2>
+            </div>
+
+            <div class="col-12 col-md-4 order-10 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/aint_black.jpg" alt="aint-black">
+                </div>
+                <h6 class="font-weight-bolder ">Trump Store Rolls Out 'You Ain't Black' T-shirts Referencing Biden
+                    Remark</h6>
+            </div>
+
+            <div class="col-12 col-md-4 order-10 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/trump-national-doral-miami.jpg" alt="Xijingping">
+                </div>
+                <h6 class="font-weight-bolder ">Trump Organization Lays off 250 Resort Employees Due to Pandemic</h6>
+            </div>
+
+            <div class="col-12 col-md-4 order-10 bg-white  ">
+                <div class="row mb-2">
+                    <div class="col-3 col-md-4"><img class="img-fluid" src="img/mike-tomlin-brian-flores.jpg"
+                            alt="mudak">
+                    </div>
+
+                    <div class="col-8 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">12 U.S.
+                            States Where Coronavirus Cases Are Rising</a></div>
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col-3 col-md-4"><img class="img-fluid w-100" src="img/steve-mnuchin.jpg" alt="mudak">
+                    </div>
+
+                    <div class="col-9 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">Former ICE
+                            Detainee Sues CoreCivic Over Alleged Rape Resulting in Pregnancy</a></div>
+                </div>
+
+
+                <div class="row mb-2">
+
+                    <div class="col-3 col-md-4"><img class="img-fluid w-100" src="img/american-ledger.png" alt="mudak">
+                    </div>
+
+                    <div class="col-9 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">Major
+                            Republican and Democratic campaign organizations are using shady "new</a></div>
+                </div>
+            </div>
+
+
+            <!--                   Culture                   -->
+            <div class="col-12 order-10  d-flex mx-auto py-2 bg-white border-top">
+                <h2 class="text-red font-weight-bolder ">Culture</h2>
+            </div>
+
+            <div class="col-12 col-md-4 order-10 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/agents-shield-season-6.jpg" alt="aint-black">
+                </div>
+                <h6 class="font-weight-bolder ">How to Watch 'Agents of SHIELD' Season 7 Online</h6>
+            </div>
+
+            <div class="col-12 col-md-4 order-10 mx-auto bg-white">
+                <div class="w-100">
+                    <img class="w-100" src="img/wilfred-malick-agents-shield.jpg" alt="Xijingping">
+                </div>
+                <h6 class="font-weight-bolder ">Wilfred Malick in 'Agents of S.H.I.E.L.D' might retcon 'The First
+                    Avenger'</h6>
+            </div>
+
+            <div class="col-12 col-md-4 order-10 bg-white  ">
+                <div class="row mb-2">
+                    <div class="col-3 col-md-4"><img class="img-fluid" src="img/agents-shield-season-6-recap.jpg"
+                            alt="mudak">
+                    </div>
+
+                    <div class="col-8 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">What
+                            Happened in the Last Season of 'Agents of S.H.I.E.L.D.'?</a></div>
+                </div>
+
+                <div class="row mb-2">
+
+                    <div class="col-3 col-md-4"><img class="img-fluid w-100" src="img/agents-shield-season-colton.jpg"
+                            alt="mudak">
+                    </div>
+
+                    <div class="col-9 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">All You Need
+                            to Know About 'Agents of SHIELD' Season 7</a></div>
+                </div>
+
+
+                <div class="row mb-2">
+
+                    <div class="col-3 col-md-4"><img class="img-fluid w-100" src="img/steven-king.jpg" alt="mudak">
+                    </div>
+
+                    <div class="col-9 col-md-7 pl-md-0"> <a class="text-dark font-weight-bold h-6" href="#">Stephen King
+                            Ranked His Top Three Gangster Movies — Did Yours Make the Cut?</a></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- subscribe section  -->
+        <div class="row order-11 mx-auto bg-white mt-1 pb-4">
+            <div class="col-12  col-lg-7 ">
+                <h6 class="text-red text-uppercase font-weight-bolder mt-4 mb-2">subscribe</h6>
+
+                <div class="bg-light d-flex flex-wrap flex-md-nowrap  p-md-4 pb-md-5">
+
+                    <div class="img-container mx-auto mx-md-0 mt-lg-2 ">
+                        <div class="under-img"> <img src="img/newsweek-life.jpg" alt="xi"></div>
+                        <div class="over-img"> <img src="img/xizhinping.jpg" alt="xi"></div>
+                    </div>
+
+                    <div class="pl-4 pt-5 text-center text-md-left">
+                        <h4 class=" font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want
+                            to
+                            Read!</h4>
+                        <p class="mb-0">All Access + Weekly Delivery.</p>
+                        <p> Choose A Membership That's Perfect for You!</p>
+                        <button type="button"
+                            class="red-background btn btn-danger  mt-2 text-uppercase font-weight-bolder mx-auto mx-md-0 mb-3 d-flex justify-content-center align-items-center">subscribe
+                            <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
+                                fill="red" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+            <!--                                       the problem                                        -->
+
+            <div class="col-12 col-lg-5 d-flex flex-column">
+                <h6 class="text-red text-uppercase font-weight-bolder mt-4 mb-2">NEWSLETTER</h6>
+                <div class="d-flex h-100 d-inline-block ">
+                    <div class="img-bg  px-0 bg-light w-100 ">
+                    </div>
+                    <!-- <div class="col-8 col-lg-6 p-4"> -->
+                    <div class="h-100 p-4 h-100 d-inline-block">
+                        <h5 class="font-weight-bold">The Starting 5</h5>
+                        <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.
+                        </p>
+                        <input class="form-control mb-3 w-100 rounded-0" type="email" name="eamil" id="email-1"
+                            placeholder="Email address">
+                        <button type="button"
+                            class="red-background btn btn-danger  mt-2 text-uppercase font-weight-bolder w-100 d-flex justify-content-center align-items-center">free
+                            sign up
+                            <svg class="bi bi-chevron-right ml-1" width="1em" height="1em" viewBox="0 0 16 16"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <footer class="row order-12 mx-auto p-4 mt-1 bg-white w-100">
+        <div class="d-flex flex-column flex-md-row justify-content-between w-100 border-bottom pb-2">
+            <div class="d-flex flex-column flex-md-row align-items-start align-self-md-end">
+                <svg class="bottom-logo" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+                    style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                    <g>
+                        <path class="st0"
+                            d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2&#9;L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11&#9;c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7&#9;l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6&#9;H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13&#9;c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8&#9;c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2&#9;C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7&#9;h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4&#9;c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1&#9;c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6&#9;c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6&#9;C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5&#9;h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9&#9;c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2&#9;c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9&#9;C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6&#9;c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1&#9;c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6&#9;v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3&#9;c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5&#9;h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7" />
+                    </g>
+                </svg>
+                <p class="m-0 align-self-start align-self-md-end text-uppercase font-weight-light">© 2020 vmwhoami
+                </p>
+            </div>
+
+            <div class="align-self-start align-self-md-end ">
+                <a class="text-muted px-1" href="#"><i class="fab fa-facebook-square fa-lg"></i>
+                </a>
+                <a class="text-muted px-1" href="#"><i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a class="text-muted px-1" href="#"><i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a class="text-muted px-1" href="#"><i class="fab fa-tumblr fa-lg"></i></a>
+                <a class="text-muted px-1" href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+            </div>
+        </div>
+
+        <div class="d-flex">
+            <span class="text-muted font-weight-bolder">Editions:</span>
+            <ul class="d-flex flex-wrap">
+                <li><a class="text-muted px-3 border-right" href="#">U.S. Edition</a></li>
+                <li><a class="text-muted px-3 border-right" href="#">中文</a></li>
+                <li><a class="text-muted px-3 border-right" href="#">Pakistan</a></li>
+                <li><a class="text-muted px-3 border-right" href="#">Polska</a></li>
+                <li><a class="text-muted px-3 " href="#">România</a></li>
+            </ul>
+        </div>
+        <div class="w-100">
+            <ul class="d-flex flex-wrap">
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">About Us</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Corrections</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Contact Us</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Editorial Guidelines</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Copyright</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Terms & Conditions</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Privacy Policy</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#"> Cookie Policy</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Terms of Sale</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Archive</a></li>
+                <li><a class="text-muted pr-2 mr-2 border-right" href="#">Announcements</a></li>
+                <li><a class="text-muted pr-2 mr-2 " href="#"> Consent preferences</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--    Bootstrap related scripts           -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
